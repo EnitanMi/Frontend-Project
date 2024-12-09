@@ -1,0 +1,49 @@
+.parent-card{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+flex-wrap: wrap;
+}
+.paper-box{
+    width: 380px;
+    height: 400px;
+}
+ .loremImage{
+    width: 380px;
+    
+}
+.arrOw{
+    position: relative;
+    left: 300px;
+    top: 10px;
+    width: 40px;
+    height: 40px;
+}
+.tyPo {
+    position: relative;
+    left: 50px;
+    font-size: 20px;
+    color: #017297;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+line-height: 150%;
+}
+.loremSix{
+    position: relative;
+    left: 50px;
+    top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 150%;
+color: #000;
+}
+@media (max-width: 768px){
+    .parent-card{
+        justify-content: center;
+    }
+}

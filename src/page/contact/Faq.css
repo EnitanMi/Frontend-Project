@@ -1,0 +1,216 @@
+.contact-header{
+    width: 100%;
+    min-height: 80vh;
+    position: relative;
+    overflow: hidden; 
+}
+.contact-overlay{
+    background: linear-gradient(261.16deg, rgba(17, 47, 200, 0.3) 12.85%, rgba(217, 15, 100, 0.3) 87.91%), 
+    linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.5) 75%), url('../../assets/austin-image.jpg');
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 100%;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.how-parent{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 40px;
+}
+.how-parent h1{
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 126.5%;
+color: #FFFFFF;
+text-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.form{
+    position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto; 
+}
+.form input {
+    width: 100%;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    outline: none;
+    box-shadow: none;
+    transition: border-color 0.3s ease;
+    padding: 10px 15px 10px 40px;
+    width: 600px;
+    background: rgba(217, 217, 217, 0.4);
+  }
+  .form ::placeholder{
+    color: #ccc;
+  }
+  .search-icon {
+    position: absolute;
+    left: 10px; 
+    font-size: 20px;
+    pointer-events: none;
+    color: #ccc;
+  }
+  .activities{
+    display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   align-items: center;
+align-content: flex-start;
+position: absolute;
+top: 40rem;
+left: 15rem;
+gap: 66px;
+width: 100%;
+min-height: 80vh;
+  }
+  .activity-box{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 40px;
+gap: 10px;
+width: 500px;
+height: 200px;
+background: #F3F3F5;
+  }
+.activity-box h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #017297;
+}
+.activity-box p{
+    font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-size: 18px;
+}
+.Frequent{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 42px;
+position: relative;
+top: 10rem;
+}
+.Frequent-hOne h1{
+    color: #017297;
+    font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 145.5%;
+text-align: justify;
+position: relative;
+left: 10rem;
+}
+.Accordions{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 20px;
+}
+.accord{
+    width:130%;
+    height: 80px;
+    
+}
+.accord-h {
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 126.5%;
+color: #017297;
+padding-top: 15px;
+}
+.icon{
+    width: 60px;
+  height: 60px;
+  background: #01729733;
+  border-radius: 100px;
+  color: #017297;
+}
+.team{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 57px;
+position: relative;
+top: 10rem;
+left: 5rem;
+}
+.team-content{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 16px;
+}
+.team-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 48px;
+line-height: 120%;
+text-align: center;
+color: #017297;
+}
+.team-content p{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 150%;
+text-align: center;
+color: #000000;
+}
+.team img{
+    width: 397px;
+    height: 127px;
+}
+.team button{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 25px 52px;
+gap: 10px;
+width: 193px;
+height: 63px;
+background: #017297;
+}
+.team button p{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 97%;
+color: #FFFFFF;
+}
+.newsletter{
+    position: relative;
+    top: 200rem;
+    width: 100%;
+}
+
+@media (max-width: 768px){
+   
+}

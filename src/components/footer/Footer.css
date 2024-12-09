@@ -1,0 +1,150 @@
+.parent-footer{
+    width: 100%;
+    min-height: 60vh;
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 95px 24px 39px;
+background: #061634;
+border-radius: 0px;
+}
+.footer-content{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 300px;
+border-radius: 0px;
+}
+.logo-footer{
+   font-family: Arial, Helvetica, sans-serif;
+}
+.logo-footer h1{
+    font-size: 24px;
+    font-weight:700;
+    font-style: normal;
+    color: #fff;
+}
+.logo-footer h2{
+    font-size: 24px;
+    color: #ffcc15;
+    font-weight: 700;
+    font-style: normal;
+}
+.logo-footer h3{
+    font-size: 36px;
+    color: #ff3850;
+    font-weight: 700;
+    font-style: normal;
+}
+.footer-others{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    align-items: flex-start;
+    padding: 16px 0px 0px;
+    gap: 300px;
+}
+.company a{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+text-decoration: none;
+color: #fff;
+opacity: 0.6;
+}
+.company h1{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+padding-bottom: 10px;
+}
+.resources h1{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+padding-bottom: 10px;
+}
+.resources a{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+text-decoration: none;
+color: #fff;
+opacity: 0.6;
+}
+.about a{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 16px;
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+text-decoration: none;
+color: #fff;
+opacity: 0.6;
+}
+.about h1{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 150%;
+color: #FFFFFF;
+padding-bottom: 10px;
+}
+.copy-right p{
+    font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 150%;
+text-align: center;
+color: #FFFFFF;
+padding-top: 100px;
+}
+@media (max-width: 768px) {
+    .parent-footer{
+      
+    }
+    .footer-content, .footer-others {
+        flex-direction: column; /* Stack items vertically */
+        gap: 20px; /* Adjust gap for smaller screens */
+        align-items: center; /* Center align sections */
+    }
+
+    .company, .resources, .about {
+        text-align: center; /* Center text */
+        width: 100%; /* Allow sections to take full width */
+    }
+    .footer-others a{
+        align-items: center;
+    }
+    .logo-footer {
+        margin-bottom: 20px; /* Add spacing between logo and sections */
+    }
+}

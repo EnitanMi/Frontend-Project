@@ -1,0 +1,110 @@
+
+.nav-bar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 124px;
+    gap: 212px;
+}
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo .the  {
+       font-size: 24px;
+       font-weight:700;
+       font-style: normal;
+       color: #fff;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo .next{
+    font-size: 24px;
+    color: #ffcc15;
+    font-weight: 700;
+    font-style: normal;
+}
+.logo .show{
+    font-size: 36px;
+    color: #ff3850;
+    font-weight: 700;
+    font-style: normal;
+}
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #fff;
+    opacity: 0.7;
+    font-weight: 600;
+    line-height: 97%;
+    font-size: 16px;
+}
+.hamburger{
+    display: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: #fff;
+    align-items: center;
+  justify-content: center;
+}
+button{
+    padding: 18px 52px;
+    gap: 10px;
+    width: 161px;
+    height: 63px;
+    border: 1px solid #fff;
+    background-color: black;
+}
+button a{
+    text-decoration: none;
+    outline: none;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    line-height: 97%;
+    opacity: 0.7px;
+}
+button:hover {
+  }
+
+  @media (max-width:768px){
+    .nav-bar {
+        padding: 20px;
+        gap: 20px;
+    }
+    .logo .the, .logo .next, .logo .show {
+        font-size: 18px;
+    }
+    .nav-links {
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: black;
+        width: 100%;
+        height: calc(100vh - 60px);
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        transform: translateX(100%);
+        z-index: 1000;
+    }
+    .nav-links.open {
+        transform: translateX(0);
+    }
+    .hamburger {
+        display: block;
+    }
+    button {
+        display: none;
+    }
+  }

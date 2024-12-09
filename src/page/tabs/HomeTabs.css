@@ -1,0 +1,204 @@
+
+.tabpanel-contentOne{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0px;
+    gap:50px;
+}
+.tabpanel-contentOne h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 145.5%;
+    text-align: center;
+    color: #051534;
+}
+.tabpanel-contentOne p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145.5%;
+    text-align: justify;
+    color: #051534;
+}
+.tabpanel-contentTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0px;
+    gap:50px;
+}
+.tabpanel-contentTwo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 145.5%;
+    text-align: center;
+    color: #051534;
+}
+.tabpanel-contentTwo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145.5%;
+    text-align: justify;
+    color: #051534;
+}
+.tabpanel-contentThree{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0px;
+    gap:50px;
+}
+.tabpanel-contentThree h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 145.5%;
+    text-align: center;
+    color: #051534;
+}
+.tabpanel-contentThree p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145.5%;
+    text-align: justify;
+    color: #051534;
+}
+.tabpanel-contentFour{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0px;
+    gap:50px;
+}
+.tabpanel-contentFour h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 145.5%;
+    text-align: center;
+    color: #051534;
+}
+.tabpanel-contentFour p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145.5%;
+    text-align: justify;
+    color: #051534;
+}
+.tabpanel-contentFive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 32px 0px;
+    gap:50px;
+}
+.tabpanel-contentFive h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 145.5%;
+    text-align: center;
+    color: #051534;
+}
+.tabpanel-contentFive p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 145.5%;
+    text-align: justify;
+    color: #051534;
+}
+.icon-containerOne  .account{
+    font-size: 80px;
+    color: #71767D;
+}
+.icon-containerTwo  .account{
+    font-size: 80px;
+    color: #71767D;
+}
+.icon-containerThree  .account{
+    font-size: 80px;
+    color: #71767D;
+}
+.icon-containerFour  .account{
+    font-size: 80px;
+    color: #71767D;
+}
+.icon-containerFive  .account{
+    font-size: 80px;
+    color: #71767D;
+}
+/* .tabs-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    max-width: 100%;
+    padding: 20px;
+    margin: auto;
+  } */
+
+
+  @media (max-width: 768px) {
+    
+    .tabpanel-contentOne, 
+    .tabpanel-contentTwo, 
+    .tabpanel-contentThree, 
+    .tabpanel-contentFour, 
+    .tabpanel-contentFive {
+        padding: 16px 10px; 
+        gap: 20px; 
+        text-align: left; 
+    }
+
+    /* Header Font Size */
+    .tabpanel-contentOne h2, 
+    .tabpanel-contentTwo h2, 
+    .tabpanel-contentThree h2, 
+    .tabpanel-contentFour h2, 
+    .tabpanel-contentFive h2 {
+        font-size: 22px; 
+        line-height: 130%;
+    }
+
+    /* Paragraph Font Size */
+    .tabpanel-contentOne p, 
+    .tabpanel-contentTwo p, 
+    .tabpanel-contentThree p, 
+    .tabpanel-contentFour p, 
+    .tabpanel-contentFive p {
+        font-size: 14px; 
+        line-height: 140%; 
+    }
+
+    /* Icon Adjustments */
+    .icon-containerOne .account, 
+    .icon-containerTwo .account, 
+    .icon-containerThree .account, 
+    .icon-containerFour .account, 
+    .icon-containerFive .account {
+        font-size: 40px; 
+    }
+
+}

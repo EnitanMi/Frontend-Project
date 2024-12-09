@@ -1,0 +1,377 @@
+.hero-section{
+        width: 100%;
+        min-height: 80vh;
+        position: relative;
+        overflow: hidden; 
+    }
+
+section .hero-overlay{
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 75%), url('../../assets/austin-image.jpg');
+    transform: matrix(1, 0, 0, 1, 0, 0);
+    width: 100%;
+    min-height: 80vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: absolute; 
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+section .overlay{
+    color: #fff;
+}
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px 123px;
+    gap: 20px;
+    position: relative; 
+    z-index: 2;
+}
+.hero-text .h1{
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: normal;
+   font-weight: 700;
+   font-size: 25px;
+   line-height: 200%;
+   color: #FFFFFF;
+} 
+.hero-text .p-tag{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 18px;
+    line-height: 145.5%;
+    color: #FFFFFF;
+}
+.how{
+   display: flex;
+   flex-direction: row;
+   align-items: flex-start;
+   gap: 40px;
+   padding: 0px;
+}
+.how button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 18px 52px;
+    gap: 10px;
+    cursor: pointer; /* Pointer cursor for buttons */
+    transition: background-color 0.3s ease;
+    background: #FFFFFF;
+}
+.how button:hover {
+    background: #f0f0f0; 
+  }
+.how button a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 97%;
+    color: #042A3C;
+}
+.join{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+    gap: 16px;
+}
+.join span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+ .Follow-section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    background: #F3F3F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;      
+}
+.how-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 40px;
+}
+.join .play{
+    color:#fff;
+    width:37.64px;
+    height:36px;
+}
+.how-box h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 97%;
+    color: #051534;
+}
+.how-box p{
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 145.5%;
+text-align: center;
+color: #051534;
+}
+.our-partners{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 96px 122px;
+    gap: 56px;
+    width: 100%;
+    min-height: 50vh;
+    background: #fff;
+    border-radius: 0px;
+}
+.our-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    padding: 0px;
+    gap: 32px 77px;
+    border-radius: 0px;
+}
+.our-links img{
+    width: 250px;
+}
+.our-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 40px;
+}
+.our-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 97%;
+    color: #051534;
+}
+.our-content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 145.5%;
+    text-align: center;
+    color: #051534;
+}
+.our-links {
+    padding: 0px;
+    margin-top: 50px;
+    
+}
+.gallery-scroll{
+    width: 100%;
+    min-height: 250vh;
+    position: relative;
+    overflow: hidden; 
+}
+
+section .gallery-overlay{
+background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0) 75%), url('../../assets/galleryScroll.png');
+transform: matrix(1, 0, 0, 1, 0, 0);
+width: 100%;
+min-height: 250vh;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+background-attachment: fixed;
+position: absolute; 
+top: 0;
+left: 0;
+z-index: 1;
+}
+.whatThey-say{
+    width: 100%;
+    min-height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px 165px;
+    gap: 58px;
+    background: rgba(6, 22, 52, 0.05);
+    border-radius: 0px;
+}
+.whatThey-say h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    color: #000000;
+}
+.our-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 124px 119px;
+    gap: 56px;
+    width: 100%;
+    min-height: 70vh;
+    background: #FFFFFF;
+}
+.our-content{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 0px;
+gap: 20px;
+}
+.our-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 97%;
+    color: #051534;
+}
+.our-content p{ 
+font-family: Arial, Helvetica, sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 28px;
+line-height: 145.5%;
+text-align: center;
+color: #051534;
+}
+.our-content img{
+    width: 265px;
+height: 34px;
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        padding: 0px 40px;
+        gap: 15px;
+    }
+
+    .hero-text .h1 {
+        font-size: 20px;
+        line-height: 150%;
+    }
+
+    .hero-text .p-tag {
+        font-size: 14px;
+    }
+
+    .how {
+        flex-direction: column; /* Stack buttons vertically */
+        gap: 20px;
+    }
+
+    .how button {
+        padding: 12px 40px;
+    }
+
+    .join {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .our-partners {
+        flex-direction: column; /* Stack content vertically */
+        padding: 40px 20px;
+    }
+
+    .our-links img {
+        width: 150px; /* Smaller image size */
+    }
+
+    .whatThey-say h1 {
+        font-size: 32px;
+    }
+
+    .our-content p {
+        font-size: 16px;
+        padding: 0 20px;
+    }
+    .Follow-section{
+        width: 100%;
+        display: flex;
+        background: #F3F3F5;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 40px;      
+    }
+    .our-partners {
+        flex-direction: column; /* Stack items vertically */
+        padding: 32px 16px; /* Reduce padding */
+        gap: 20px; /* Reduce gap between items */
+    }
+
+    .our-links {
+        flex-direction: column; /* Stack links vertically */
+        gap: 20px; /* Adjust gap for smaller screens */
+    }
+
+    .our-links img {
+        width: 150px; /* Reduce image size */
+    }
+    .gallery-scroll {
+        min-height: 150vh; /* Reduce height for smaller screens */
+    }
+
+    section .gallery-overlay {
+        min-height: 150vh; /* Match the reduced height */
+        background-attachment: scroll; /* Disable fixed attachment for better performance */
+        background-size: auto; /* Let the background image scale dynamically */
+    }
+    .whatThey-say {
+        padding: 50px 50px; /* Reduce padding for smaller screens */
+        gap: 40px;
+    }
+
+    .whatThey-say h1 {
+        font-size: 36px; /* Adjust font size */
+    }
+
+    .our-blog {
+        padding: 60px 40px; /* Reduce padding for smaller screens */
+        gap: 40px;
+        justify-items: center;
+    }
+
+    .our-content h1 {
+        font-size: 36px; /* Adjust font size */
+    }
+
+    .our-content p {
+        font-size: 20px; /* Adjust font size for readability */
+        padding: 0 20px; /* Add padding for text */
+    }
+
+    .our-content img {
+        width: 200px; /* Adjust image size */
+        height: auto;
+    }
+}
+
