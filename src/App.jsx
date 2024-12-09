@@ -6,8 +6,11 @@ import Events from "./page/events/Events"
 import Faq from "./page/contact/Faq"
 import JoinUs from "./components/join us/JoinUs"
 import Talents from "./page/talents/Talents"
-import CreateStudent from "./createstudent/createStudent"
+
 import ListStudent from "./liststudent/ListStudent"
+import CreateStudent from "./createstudent/CreateStudent"
+
+
 
 
 
@@ -28,7 +31,7 @@ export default function App() {
             <Route path="/talents" element={<Talents/>} />
             <Route path="/contact" element={<Faq/>}  />
             <Route path="/join" element={<JoinUs/>} />
-            <Route  path="/createstudent"  element= { <CreateStudent/>} />
+            <Route path="/createstudent" element={<CreateStudent/>} />
         <Route  path="/liststudent"  element= { <ListStudent/>} />
          </Routes>
       </BrowserRouter>

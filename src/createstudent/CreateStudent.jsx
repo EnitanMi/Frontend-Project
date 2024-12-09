@@ -1,7 +1,7 @@
 import { useCreateStudentMutation } from "../feature/studentApiSlice"
 import { useState } from "react"
 
-export default function CreateStudent() {
+export default function CreateStudent  () {
     const [addStudent] = useCreateStudentMutation()
 
     const [studentData, setStudentData]= useState({firstName: "", lastName: "", gender: "", age: ""})
