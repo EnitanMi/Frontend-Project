@@ -4,6 +4,7 @@ import { useGetAllStudentQuery, useDeleteStudentMutation } from '../feature/stud
 import IconButton from '@mui/material/IconButton';
 import DeleteIcon from '@mui/icons-material/Delete';
 import { Box } from '@mui/material';
+import { Link } from "react-router";
 
 
 export default function ListStudent () {
@@ -96,7 +97,9 @@ export default function ListStudent () {
 
     return(
         <div>
-            <h1>ListStudent</h1>
+            <h1>ListStudent</h1> 
+            <button><Link to='/createstudent'>Add</Link></button>
+            
             <Box sx={{ height: 400, width: '100%', color: 'blue' }}>
                 <DataGrid
                     rows={rows}

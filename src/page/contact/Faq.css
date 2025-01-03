@@ -212,5 +212,52 @@ color: #FFFFFF;
 }
 
 @media (max-width: 768px){
-   
+    .contact-header{
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+    }
+    .newsletter{
+       display: block;
+       flex-wrap: wrap;
+       margin-top: 55rem ;
+    }
+    .activity-box{
+        position: relative;
+        left:0px;
+       
+        align-items: center;
+    }
+    .activities{
+        flex-direction: column; 
+        align-items: flex-start; 
+        position: static; 
+        gap: 20px; 
+        padding: 10px;
+      }
+      .Frequent {
+        flex-direction: column; /* Retain vertical stacking */
+        align-items: flex-start; /* Align items to the left */
+        padding: 10px; /* Add padding for better spacing */
+        gap: 20px; /* Reduce gap between elements */
+        top: 5rem; /* Adjust top spacing for smaller screens */
+    }
+    .Frequent-hOne h1 {
+        font-size: 30px; /* Reduce font size for smaller screens */
+        line-height: 1.4; /* Adjust line height for readability */
+        text-align: center; /* Center-align for better layout */
+        left: 0; /* Remove horizontal offset */
+        padding: 0 10px; /* Add padding for spacing */
+    }
+    .team {
+        gap: 30px; /* Reduce spacing between items */
+        top: 5rem; /* Adjust vertical position */
+        left: 0; /* Remove horizontal offset */
+        padding: 0 10px; /* Add horizontal padding for spacing */
+    }
+    .newsletter {
+        top: 5px; /* Remove excessive vertical offset */
+        padding: 20px; /* Add padding for spacing */
+        width: 100%; /* Ensure full width utilization */
+    }
 }

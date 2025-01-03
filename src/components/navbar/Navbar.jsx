@@ -28,6 +28,7 @@ export default function Navbar() {
         <Link to='/talents'>Talents</Link>
         <Link to='/events'>Events</Link>
         <Link to='/contact'>Contact</Link>
+        <Link to='/liststudent'>Dashboard</Link>
       </div>
       
       <div>
